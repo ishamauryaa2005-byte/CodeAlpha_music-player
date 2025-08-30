@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #78cc95;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+}
+
+.player {
+  max-width: 400px;
+  margin: auto;
+  background: #e752cc;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.controls button {
+  margin: 10px;
+  font-size: 20px;
+}
+
+input[type="range"] {
+  width: 100%;
+}
+
+.playlist ul {
+  list-style: none;
+  padding: 0;
+}
+
+.playlist li {
+  cursor: pointer;
+  padding: 5px;
+}
+
+.playlist li.active {
+  background-color: #b2c828;
+}
